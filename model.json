@@ -1,0 +1,10 @@
+{
+    "prompt": "A golden retriever, sporting sleek black sunglasses, with its lengthy fur flowing in the breeze, sprints playfully across a rooftop terrace, recently refreshed by a light rain. The scene unfolds from a distance, the dog's energetic bounds growing larger as it approaches the camera, its tail wagging with unrestrained joy, while droplets of water glisten on the concrete behind it. The overcast sky provides a dramatic backdrop, emphasizing the vibrant golden coat of the canine as it dashes towards the viewer.",
+    "seed": 0,
+    "num_inference_steps": 50,
+    "num_frames": 49,
+    "use_dynamic_cfg": true,
+    "guidance_scale": 7.0,
+    "width": 720,
+    "height": 480
+}

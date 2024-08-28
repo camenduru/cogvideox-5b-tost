@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+  "type": "object",
+  "properties": {
+    "readme": {
+      "type": "string",
+      "title": "CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer",
+      "author": "Zhuoyi Yang, Jiayan Teng, Wendi Zheng, Ming Ding, Shiyu Huang, Jiazheng Xu, Yuanming Yang, Wenyi Hong, Xiaohan Zhang, Guanyu Feng, Da Yin, Xiaotao Gu, Yuxuan Zhang, Weihan Wang, Yean Cheng, Ting Liu, Bin Xu, Yuxiao Dong, Jie Tang",
+      "paper": "https://arxiv.org/abs/2408.06072",
+      "code": "https://github.com/THUDM/CogVideo",
+      "jupyter": "https://github.com/camenduru/CogVideoX-5B-jupyter",
+      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/cogvideox-5b.ipynb",
+      "tags": [
+        "Text to Video"
+      ],
+      "widget": "readme"
+    },
+    "prompt": {
+      "type": "string",
+      "description": "Prompt",
+      "widget": "textarea"
+    },
+    "seed": {
+      "type": "integer",
+      "description": "Seed (if 0 random)"
+    },
+    "num_inference_steps": {
+      "type": "integer",
+      "widget": "select",
+      "description": "Num Inference Steps",
+      "oneOf": [
+        {
+          "description": "30",
+          "enum": [
+            30
+          ]
+        },
+        {
+          "description": "40",
+          "enum": [
+            40
+          ]
+        },
+        {
+          "description": "50",
+          "enum": [
+            50
+          ]
+        }
+      ],
+      "default": 50
+    },
+    "num_frames": {
+      "type": "integer",
+      "description": "Num Frames",
+      "readOnly": "true"
+    },
+    "use_dynamic_cfg": {
+      "type": "boolean",
+      "description": "Use Dynamic CFG",
+      "readOnly": "true"
+    },
+    "guidance_scale": {
+      "type": "number",
+      "description": "Guidance Scale",
+      "readOnly": "true"
+    },
+    "width": {
+      "type": "integer",
+      "description": "Width",
+      "readOnly": "true"
+    },
+    "height": {
+      "type": "integer",
+      "description": "Height",
+      "readOnly": "true"
+    }
+  },
+  "buttons": [
+    {
+      "id": "enter",
+      "label": "🥪 Enter"
+    }
+  ]
+}
