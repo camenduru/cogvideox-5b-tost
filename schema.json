@@ -74,6 +74,14 @@
       "type": "integer",
       "description": "Height",
       "readOnly": "true"
+    },
+    "example": {
+      "type": "string",
+      "image1": "https://fakeimg.pl/720x480/282828/eae0d0/?text=input#.png",
+      "image2": "https://files.catbox.moe/29tiuv.png",
+      "image3": "https://fakeimg.pl/720x480/282828/eae0d0/?text=output#.png",
+      "image4": "https://files.catbox.moe/20oc21.gif",
+      "widget": "example"
     }
   },
   "buttons": [
